@@ -2,6 +2,7 @@ package golangunittesting
 
 import "math"
 
+// return true if armstrong number
 func CalculateIsArmstrong(number int) bool {
 	a := number / 100
 	b := number % 100 / 10
